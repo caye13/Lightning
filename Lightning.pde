@@ -2,7 +2,6 @@ int startX;
 int startY;
 int endX;
 int endY;
-//float g =2/9.0;
 int lights = (int)(Math.random()*101);
 int[] windowX = {5, 5, 105, 145, 240, 300, 344, 385,480, 620, 675, 755, 755};
 int[] windowY = {290, 640, 690, 540, 741, 680, 580, 730, 560, 725, 520, 420, 670};
@@ -112,23 +111,6 @@ void draw() {
     if(mousePressed){
       lights = (int)(Math.random()*101);
     }
-    //int frequency = 10;
-    //if(frameCount % frequency == 0) {
-    //  noStroke();
-    //  fill(0,0,0,191);
-    //  rect(0,0,780,780);
-    //  delay(100);
-    //}
-    
-  //snowflakes?
-  //strokeWeight((float)(Math.random()*0.01));
-  //translate(width - 260, height - 260);
-  //scale(26,26);
-  //float t = frameCount / 10.0;
-  //float lee = cos(g*t) * sin(t);
-  //float caye = cos(g*t) * cos(t);
-  //stroke(255);
-  //line(0,0,lee,caye);
 }
 
 
